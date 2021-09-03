@@ -43,10 +43,10 @@ namespace Calculator
             this.dot = new System.Windows.Forms.Button();
             this.numZero = new System.Windows.Forms.Button();
             this.clear = new System.Windows.Forms.Button();
-            this.plus = new System.Windows.Forms.Button();
             this.subtraction = new System.Windows.Forms.Button();
             this.multiplication = new System.Windows.Forms.Button();
             this.division = new System.Windows.Forms.Button();
+            this.addition = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // numSeven
@@ -187,16 +187,6 @@ namespace Calculator
             this.clear.Text = "C";
             this.clear.UseVisualStyleBackColor = true;
             // 
-            // plus
-            // 
-            this.plus.Font = new System.Drawing.Font("Verdana", 13.74545F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.plus.Location = new System.Drawing.Point(260, 87);
-            this.plus.Name = "plus";
-            this.plus.Size = new System.Drawing.Size(44, 38);
-            this.plus.TabIndex = 29;
-            this.plus.Text = "+";
-            this.plus.UseVisualStyleBackColor = true;
-            // 
             // subtraction
             // 
             this.subtraction.Font = new System.Drawing.Font("Verdana", 13.74545F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -227,6 +217,16 @@ namespace Calculator
             this.division.Text = "/";
             this.division.UseVisualStyleBackColor = true;
             // 
+            // addition
+            // 
+            this.addition.Font = new System.Drawing.Font("Verdana", 13.74545F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.addition.Location = new System.Drawing.Point(260, 87);
+            this.addition.Name = "addition";
+            this.addition.Size = new System.Drawing.Size(44, 38);
+            this.addition.TabIndex = 29;
+            this.addition.Text = "+";
+            this.addition.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
@@ -235,7 +235,7 @@ namespace Calculator
             this.Controls.Add(this.division);
             this.Controls.Add(this.multiplication);
             this.Controls.Add(this.subtraction);
-            this.Controls.Add(this.plus);
+            this.Controls.Add(this.addition);
             this.Controls.Add(this.clear);
             this.Controls.Add(this.numZero);
             this.Controls.Add(this.dot);
@@ -274,10 +274,10 @@ namespace Calculator
         private System.Windows.Forms.Button dot;
         private System.Windows.Forms.Button numZero;
         private System.Windows.Forms.Button clear;
-        private System.Windows.Forms.Button plus;
         private System.Windows.Forms.Button subtraction;
         private System.Windows.Forms.Button multiplication;
         private System.Windows.Forms.Button division;
+        private System.Windows.Forms.Button addition;
     }
 }
 
